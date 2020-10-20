@@ -1,0 +1,3 @@
+from flask_sqlalchemy import SQLAlchemy
+from blog import db
+db.create_all()
